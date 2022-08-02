@@ -38,10 +38,12 @@ const Login = ({ navigation }) => {
         </View>
       </View>
       <View style={styles.bottom_container}>
-        <Text style={styles.accountText}>Hesabınız yok mu?</Text>
-        <TouchableOpacity onPress={reDirectSignup}>
-          <Text style={styles.signup}>Kayıt olun {">"}</Text>
-        </TouchableOpacity>
+        <View style={styles.texts}>
+          <Text style={styles.accountText}>Hesabınız yok mu?</Text>
+          <TouchableOpacity onPress={reDirectSignup}>
+            <Text style={styles.signup}>Kayıt olun {">"}</Text>
+          </TouchableOpacity>
+        </View>
       </View>
     </SafeAreaView>
   );

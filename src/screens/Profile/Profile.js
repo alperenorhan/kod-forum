@@ -34,7 +34,7 @@ const Profile = () => {
       </View>
       <View style={styles.last_entries}>
         <Text style={styles.last_entries_title}>Son Entryler</Text>
-        <View style={{ marginBottom: 50 }}>
+        <View>
           <ScrollView showsVerticalScrollIndicator={false}>
             <EntryCard />
             <EntryCard />

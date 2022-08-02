@@ -9,34 +9,31 @@ export default StyleSheet.create({
   logo: {
     width: 144,
     height: 144,
-    marginBottom: 30,
-  },
-  header: {
-    justifyContent: "center",
-    alignItems: "center",
-    marginTop: 30,
+    marginBottom: 10,
   },
   header_text: {
     color: COLORS.white,
     fontWeight: "bold",
     fontSize: 36,
   },
-  or: {
-    color: COLORS.white,
-    opacity: 0.6,
-    marginVertical: 16,
-    textAlign: "center",
+  header: {
+    marginTop: 60,
+    marginBottom: 100,
+    justifyContent: "center",
+    alignItems: "center",
+    flex: 2,
   },
-  bottom_container: {
-    marginHorizontal: 46,
-    marginTop: "10%",
+  text_container: {
+    marginBottom: 20,
   },
-  accountText: {
-    color: COLORS.white,
-    opacity: 0.6,
-    marginVertical: 10,
+  signupform: {
+    justifyContent: "center",
+    flex: 1,
+    marginTop: 70,
+    marginBottom: 100,
   },
-  signup: {
-    color: COLORS.white,
+  buttons: {
+    marginTop: 50,
+    flex: 1,
   },
 });

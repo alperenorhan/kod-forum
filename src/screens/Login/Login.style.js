@@ -9,17 +9,19 @@ export default StyleSheet.create({
   logo: {
     width: 144,
     height: 144,
-    marginBottom: 30,
+    marginBottom: 10,
   },
   header: {
     justifyContent: "center",
     alignItems: "center",
-    marginTop: 49,
+    marginTop: 40,
+    flex: 1,
   },
   header_text: {
     color: COLORS.white,
     fontWeight: "bold",
     fontSize: 36,
+    marginBottom: 35,
   },
   or: {
     color: COLORS.white,
@@ -30,6 +32,7 @@ export default StyleSheet.create({
   bottom_container: {
     marginHorizontal: 46,
     marginTop: "10%",
+    flex: 1,
   },
   accountText: {
     color: COLORS.white,
@@ -39,10 +42,15 @@ export default StyleSheet.create({
   signup: {
     color: COLORS.white,
   },
-  form: {
-    marginBottom: "15%",
-  },
   buttons: {
     marginTop: "5%",
+    flex: 1,
+  },
+  form: {
+    flex: 2,
+  },
+  texts: {
+    flex: 1,
+    marginTop: 70,
   },
 });

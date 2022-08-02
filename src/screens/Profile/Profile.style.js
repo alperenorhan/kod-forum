@@ -9,6 +9,7 @@ export default StyleSheet.create({
   profile_info: {
     marginTop: 36,
     alignItems: "center",
+    flex: 1,
   },
   profile_picture: {
     width: 112,
@@ -31,6 +32,7 @@ export default StyleSheet.create({
     flexDirection: "row",
     justifyContent: "center",
     margin: 5,
+    flex: 1,
   },
   icon: {
     marginRight: 7,
@@ -40,7 +42,9 @@ export default StyleSheet.create({
     fontWeight: "bold",
     fontSize: 25,
     textAlign: "center",
-    marginTop: "20%",
     marginBottom: "3%",
+  },
+  last_entries: {
+    flex: 1,
   },
 });
